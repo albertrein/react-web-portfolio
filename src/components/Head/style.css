@@ -1,0 +1,31 @@
+.header{
+	display: flex;	
+}
+.header img{
+	width: 100%;
+}
+.head-info{
+	position: absolute;
+    align-self: flex-end;
+    padding-left: 5px;
+    padding-bottom: 10px;
+    display: flex;
+}
+.head-info img{
+	width: 23%;
+	border-radius: 100px;
+}
+.head-text{
+	display: block;
+    align-self: center;
+    margin-left: 10px;
+}
+.head-text p{
+	font-size: 17px;
+	color: #333;
+	font-family: sans-serif;
+}
+.head-text p:first-child{
+	font-size: 25px;
+	color: #111;
+}
