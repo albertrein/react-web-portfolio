@@ -15,7 +15,7 @@ export default class Head extends Component{
 	render(){
 		return(
 			<div class="header">
-				<img alt="background" src={backgroundHeader} />
+				<img class="background-img" alt="background" src={backgroundHeader} />
 				<div class="head-info">
 					<img alt="perfil" src={this.state.albertrein.img_perfil} />
 					<div class="head-text">

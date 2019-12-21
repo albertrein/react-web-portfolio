@@ -19,6 +19,7 @@
 	display: block;
     align-self: center;
     margin-left: 10px;
+	line-height: 0;
 }
 .head-text p{
 	font-size: 17px;
@@ -28,4 +29,22 @@
 .head-text p:first-child{
 	font-size: 25px;
 	color: #111;
+	font-weight: bold;
+}
+
+@media screen and (max-width: 750px){
+	.header{
+		display: block;
+	}
+	.header img.background-img{
+		display: none;
+	}
+	.head-info{
+		background-color: #1781bf;
+		position: relative;
+		align-items: center;
+	}
+	.head-text{
+		line-height: 23px;
+	}
 }
