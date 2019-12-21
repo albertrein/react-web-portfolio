@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import GithubAPI from '../services/api/Github'
+import GithubAPI from '../../services/api/Github'
 
 export default class Main extends Component{
 	state = {
@@ -21,7 +21,7 @@ export default class Main extends Component{
 		return (
 			<div>
 				{this.state.albertrein.map(repositorio => (
-					<li key={repositorio.id}>{repositorio.name} »» {repositorio.language}</li>
+					<div key={repositorio.id}>{repositorio.name} »» {repositorio.language}</div>
 				))}				
 			</div>
 		);

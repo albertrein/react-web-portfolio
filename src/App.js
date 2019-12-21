@@ -1,5 +1,5 @@
 import React from 'react';
-import Main from './components/Main'
+import Repos from './components/Repos/'
 import Head from './components/Head/'
 
 function App() {
@@ -9,7 +9,7 @@ function App() {
     		<Head />
     	</header>
       <div>
-        <Main />
+        <Repos />
       </div>
     </div>
   );
