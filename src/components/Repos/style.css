@@ -1,0 +1,14 @@
+.repos-content{margin: 5px auto 0;}
+
+.repository{
+	border: solid 1px;
+    margin: 10px;
+    padding: 10px;
+    float: left;
+}
+
+.repository.C:before{
+	content: 'C';
+	border: solid 1px;
+	border-radius: 50px;	
+}

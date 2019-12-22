@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import GithubAPI from '../../services/api/Github'
+import './style.css'
 
 export default class Main extends Component{
 	state = {
@@ -15,14 +16,13 @@ export default class Main extends Component{
 		this.setState({albertrein: response});
 		console.log(response);
 	}
-//<span>This is Main {this.state.albertrein.name}!</span><img alt="my-self" src={this.state.albertrein.img_perfil}></img>
 
 	render(){
 		return (
-			<div>
-				{this.state.albertrein.map(repositorio => (
-					<div key={repositorio.id}>{repositorio.name} »» {repositorio.language}</div>
-				))}				
+			<div class="repos-content">
+				{this.state.albertrein.map(repo => (
+					<div class={'repository ' + repo.language} key={repo.id}>{repo.name} »» {repo.language} »» {repo.description}</div>
+				))}
 			</div>
 		);
 	}
