@@ -5,10 +5,39 @@
     margin: 10px;
     padding: 10px;
     float: left;
+    font-family: sans-serif;
 }
 
 .repository.C:before{
 	content: 'C';
-	border: solid 1px;
-	border-radius: 50px;	
+    border: solid 3px;
+    display: flex;
+    width: fit-content;
+    margin: 0 auto;
+    padding: 10px 14px;
+    border-radius: 50px;
+   	font-weight: bold;
+   	color: #555555;
+}
+.repository.JavaScript:before{
+	content: 'JS';
+    border: solid 3px;
+    display: flex;
+    width: fit-content;
+    margin: 0 auto;
+    padding: 10px 10px;
+    border-radius: 50px;
+    font-weight: bold;
+   	color: #f1e05a;
+}
+.repository.PHP:before{
+	content: 'PHP';
+    border: solid 3px;
+    display: flex;
+    width: fit-content;
+    margin: 0 auto;
+    padding: 15px 8px;
+    border-radius: 50px;
+    font-weight: bold;
+    color: #4f5d95;
 }
