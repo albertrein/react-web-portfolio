@@ -11,6 +11,10 @@
 	border: solid 1px;
 	width: 80%;
 }
+.repository:hover{
+    box-shadow: #999 2px 8px 10px;
+    transition: box-shadow 0.4s ease-in-out;
+}
 
 .repository.C:before{
 	content: 'C';
@@ -46,6 +50,31 @@
     color: #4f5d95;
 }
 
-.null{
+.repository.Java:before{
+	content: 'Java';
+    border: solid 3px;
+    display: flex;
+    width: -moz-fit-content;
+    width: fit-content;
+    margin: 0 auto;
+    padding: 10px 10px;
+    border-radius: 50px;
+    font-weight: bold;
+    color: #b07219;
+}
+
+.null, .Assembly, .Shell, .HTML{
 	display: none; 
+}
+
+.repository p.title{
+	font-family: sans-serif;
+    text-align: center;
+    font-weight: bold;
+    font-size: 21px;
+}
+
+.repository p.description{
+	text-align: center;
+    color: #555
 }

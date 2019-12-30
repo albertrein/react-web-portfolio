@@ -22,7 +22,8 @@ export default class Main extends Component{
 			<div class="repos-content">
 				{this.state.albertrein.map(repo => (
 					<div class={'repository ' + repo.language} key={repo.id}>
-						<p>{repo.name} »» {repo.language} »» {repo.description}</p>
+						<p class="title" >{repo.name}</p>
+						<p class="description">{repo.description}</p>
 					</div>
 				))}
 			</div>
