@@ -1,11 +1,15 @@
-.repos-content{margin: 5px auto 0;}
+.repos-content{
+	column-count: 5;
+	margin: 5px auto 0;
+}
 
 .repository{
-	border: solid 1px;
-    margin: 10px;
-    padding: 10px;
-    float: left;
     font-family: sans-serif;
+	display: inline-block;
+    margin: 10px auto;
+    padding: 26px;
+	border: solid 1px;
+	width: 80%;
 }
 
 .repository.C:before{
@@ -40,4 +44,8 @@
     border-radius: 50px;
     font-weight: bold;
     color: #4f5d95;
+}
+
+.null{
+	display: none; 
 }
