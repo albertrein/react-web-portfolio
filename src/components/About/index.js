@@ -10,7 +10,6 @@ export default class About extends Component{
 	async componentDidMount(){
 		let response = await Axios.get('https://jsonblob.com/api/jsonBlob/3326234b-2c04-11ea-8649-790ffbe1acfc');
 		this.setState({aboutMe : response.data.aboutMe});
-		console.warn(this.state);
 	}
 
 	render(){
