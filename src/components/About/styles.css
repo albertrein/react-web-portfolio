@@ -1,0 +1,8 @@
+.content p.text{
+	font-size: 22px;
+	color: #333;
+}
+.content p.text:hover{
+	font-size: 22px;
+	color: #444;
+}

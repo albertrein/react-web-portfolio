@@ -1,7 +1,13 @@
-h1.title{
+*{
 	font-family: sans-serif;
+}
+h1.title{
     color: #444;
     border-top: solid 1px #aaa;
     padding: 14px 0px 0px 0px;
     margin: 20px 0;
+}
+
+div.content{
+	margin: 10px;
 }
