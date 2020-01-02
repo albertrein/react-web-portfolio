@@ -27,7 +27,7 @@ export default class Questions extends Component{
 										}
 									}}>
 								<div class="quest">
-									<a>{question.quest}</a>
+									<span>{question.quest}</span>
 								</div>
 								<div  class="answer">
 									<p id={i} >{question.answer}</p>								

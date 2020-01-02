@@ -1,6 +1,9 @@
 *{
 	font-family: sans-serif;
 }
+a{
+	color: inherit;
+}
 h1.title{
     color: #444;
     border-top: solid 1px #aaa;
