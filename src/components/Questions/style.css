@@ -1,8 +1,15 @@
-.content li{
-	border: solid #ddd 1px;
+.content li{list-style-type: none;}
+ul li p{display: none;}
+
+.quest{
+	border: solid #ddd 2px;
     padding: 10px;
-    list-style-type: none;
-    margin-bottom: 10px;
+    font-size: 24px;
+    font-weight: bold;
+    background-color: #eee;
 }
 
-ul li p{display: block;}
+.answer{
+    font-size: 20px;
+    margin-left: 25px;
+}

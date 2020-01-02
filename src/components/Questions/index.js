@@ -19,15 +19,20 @@ export default class Questions extends Component{
 				<div class="content">
 					<ul>
 						{this.state.questions.map( (question, i) => (
-							<li key={i}>
-								<a  onClick={() => {
-									if( document.getElementById(i).style.display === "block" ){
-										document.getElementById(i).style.display = "none";
-									}else{
-										document.getElementById(i).style.display = "block";
-									}
-								}} >{question.quest}</a>
-								 <p id={i} >{question.answer}</p>
+							<li key={i} onClick={() => {
+										if( document.getElementById(i).style.display === "block" ){
+											document.getElementById(i).style.display = "none";
+										}else{
+											document.getElementById(i).style.display = "block";
+										}
+									}}>
+								<div class="quest">
+									<a>{question.quest}</a>
+								</div>
+								<div  class="answer">
+									<p id={i} >{question.answer}</p>								
+								</div>
+
 							</li>
 						) )}
 					</ul>
