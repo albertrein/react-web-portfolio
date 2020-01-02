@@ -8,7 +8,6 @@ export default class Head extends Component{
 
 	async componentDidMount(){
 		let response = await GithubAPI.headerDrops();
-		console.warn(response);
 		this.setState({albertrein: response});
 	}
 	
