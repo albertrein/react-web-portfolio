@@ -1,5 +1,6 @@
 import React, {Component} from 'react'
 import axios from 'axios'
+import './style.css'
 
 export default class Questions extends Component{
 	state = {
@@ -17,8 +18,17 @@ export default class Questions extends Component{
 				<h1 class="title">Perguntas Frequentes</h1>
 				<div class="content">
 					<ul>
-						{this.state.questions.map( question => (
-							<li>{question.quest} »» {question.answer}</li>
+						{this.state.questions.map( (question, i) => (
+							<li key={i}>
+								<a  onClick={() => {
+									if( document.getElementById(i).style.display === "block" ){
+										document.getElementById(i).style.display = "none";
+									}else{
+										document.getElementById(i).style.display = "block";
+									}
+								}} >{question.quest}</a>
+								 <p id={i} >{question.answer}</p>
+							</li>
 						) )}
 					</ul>
 				</div>
