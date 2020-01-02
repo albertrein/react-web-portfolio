@@ -78,3 +78,26 @@
 	text-align: center;
     color: #555
 }
+@media screen and (max-width: 1350px){
+    .repos-content{
+        column-count: 5;
+    }
+}
+@media screen and (max-width: 1300px){
+    .repos-content{
+        column-count: 4;
+    }
+}
+@media screen and (max-width: 1050px){
+    .repos-content{
+        column-count: 2;
+    }
+}
+@media screen and (max-width: 800px){
+    .repos-content{
+        column-count: 1;
+    }
+    .repository{
+        display: block;
+    }
+}
