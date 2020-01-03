@@ -6,11 +6,13 @@ let footer = _ => (
 		<h1 class="footer-title">Vamos Conversar?</h1>
 		<div class="footer-info">
 			<div class="footer-contact">
-				<i>&#9728;</i>
+				<i>&#9993;</i>
 				<span>guilhermealberto8@gmail.com</span>
 			</div>
-			<div></div>
-			<div></div>
+			<div class="footer-contact">
+				<i>&#9990;</i>
+				<span>(51) 98518-7841</span>
+			</div>
 		</div>
 	</div>
 );

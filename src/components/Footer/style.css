@@ -1,6 +1,7 @@
 .footer{
 	background-color: #1781bf;
 	width: 100%;
+	padding: 15px 0px;
 }
 .footer-title{
     text-align: center;
@@ -10,9 +11,24 @@
     font-weight: bolder;
     margin: 0;
 }
-.footer-contact{text-align: center;}
+.footer-contact{
+	text-align: center;
+    font-size: 23px;
+    font-weight: bold;
+    margin: 15px;
+}
 .footer-contact span{}
 i{
 	width: 10px;
 	padding: 10px;
+}
+@media screen and (max-width: 600px){
+	.footer-contact{
+    	font-size: 20px;
+	}
+}
+@media screen and (max-width: 320px){
+	.footer-contact{
+    	font-size: 15px;
+	}
 }
