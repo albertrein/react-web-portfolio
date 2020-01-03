@@ -17,8 +17,16 @@ let footer = _ => (
 				<span>(51) 98518-7841</span>
 			</div>
 			<div class="footer-contact">
-				<img src={Img120} />
-				<span>(51) 98518-7841</span>
+				<a target="_blank" href="https://github.com/albertrein"><img
+				srcset={
+					Img120 + ' 120w, ' + Img64 + ' 64w, ' + Img32 + ' 32w'}
+				sizes="
+					(max-width: 300px) 32px,
+					(max-width: 600px) 64px,
+					(min-width: 601px) 120px
+				"
+				src={Img120} /></a>
+				
 			</div>
 		</div>
 	</div>
