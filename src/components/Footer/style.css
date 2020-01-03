@@ -1,0 +1,18 @@
+.footer{
+	background-color: #1781bf;
+	width: 100%;
+}
+.footer-title{
+    text-align: center;
+	color: #ffffff;
+    font-size: 40px;
+    padding: 20px;
+    font-weight: bolder;
+    margin: 0;
+}
+.footer-contact{text-align: center;}
+.footer-contact span{}
+i{
+	width: 10px;
+	padding: 10px;
+}

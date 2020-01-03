@@ -3,6 +3,7 @@ import Repos from './components/Repos/'
 import Head from './components/Head/'
 import About from './components/About/'
 import Questions from './components/Questions/'
+import Footer from './components/Footer/'
 import './style.css'
 
 function App() {
@@ -21,6 +22,9 @@ function App() {
       <div>
         <Questions />
       </div>
+      <footer>
+        <Footer />
+      </footer>
     </div>
   );
 }
