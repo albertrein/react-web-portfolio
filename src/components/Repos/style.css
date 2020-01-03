@@ -101,3 +101,24 @@
         display: block;
     }
 }
+
+
+.repository{
+    opacity: 1;
+    animation-name: fadeInOpacity;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in;    
+}
+.JavaScript{animation-duration: 3s;}
+.PHP{animation-duration: 4s;}
+.Java{animation-duration: 6s;}
+.C{animation-duration: 6.5s;}
+
+@keyframes fadeInOpacity {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
